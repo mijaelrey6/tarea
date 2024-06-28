@@ -1,11 +1,115 @@
+.satisfy-regular {
+    font-family: "Satisfy", cursive;
+    font-weight: 400;
+    font-style: normal;
+}  
+*{
+    margin: 0px;
+    padding: 0px;  
+    box-sizing: border-box;
+}
 nav{
     width: 100vw;
     height: 15vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
 }
 section{
     width: 100vw;
-    height: 85;
+    height: 85vh;
+    display: flex;
+    flex-direction: row-reverse; 
+    align-items: center;
+    justify-content: center;
+    align-self: center;
 }
 .logo{
-    
+    width: 15vw;
+    height: 15vh;
+
+    & img{
+     width: 100%;
+     height: 100%;   
+    }
+}
+.menu{
+    width: 85vw;
+    height: 15vh;
+}
+.izq{
+    width: 75vw;
+    height: 85vh;
+    display: flex;
+    flex-direction: column-reverse;
+    background: url(avengers.jpg) no-repeat center;
+    background-size: cover;
+
+}
+.der{
+    width: 25vw;
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+    background-color: red;
+    & img{
+        width: 180px;
+        height: 180px;
+        border-radius: 0.5rem;
+    }
+    & h1{
+        margin-bottom: 40px;
+        margin-top: 25px;
+        color: white;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    & p{
+        font-size: large;
+        text-align: center;
+        color: white;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+}
+.izqS{
+    width: 75vw;
+    height: 60vh;
+    display: flex;
+}
+.izqI{
+    width: 75vw;
+    height: 25vh;
+    display: flex;
+}
+.textoI{
+    width: 37.5vw;
+    height: 60vh;
+}
+.textoD{
+    width: 37.5vw;
+    height: 60vh;
+}
+.cont{
+    width: 15vw;
+    height: 25vh;
+    margin: 0.5rem;
+    background: #ffffff;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    overflow-x:hidden;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+}
+.fa-glasses,.fa-vest-patches,.fa-graduation-cap{
+    font-size: 3rem;
+}
+.fa-chevron-left,.fa-chevron-rigth{
+    font-size: 1.5rem;
 }
