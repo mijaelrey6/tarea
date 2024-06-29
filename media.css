@@ -104,9 +104,10 @@
         display: flex;
     }
     .izqI{
-        width: 75dvw;
+        width: 100dvw;
         height: 25dvh;
         display: flex;
+        bottom: 1;
     }
     .textoI{
         width: 37.5dvw;
@@ -117,8 +118,8 @@
         height: 60dvh;
     }
     .cont{
-        width: 15dvw;
-        height: 25dvh;
+        width: 20dvw;
+        height: 20dvw;
         margin: 0.5rem;
         background: #ffffff40;
         border-radius: 20px;
