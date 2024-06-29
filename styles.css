@@ -108,9 +108,9 @@ body{
     justify-content: center;
     align-self: center;
 }
-.fa-glasses .fa-vest-patches .fa-graduation-cap{
+.fa-glasses,.fa-vest-patches,.fa-graduation-cap{
     font-size: 3rem;
 }
-.fa-chevron-left .fa-chevron-rigth{
+.flecha{
     font-size: 1.5rem;
 }
