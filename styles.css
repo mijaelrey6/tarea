@@ -9,8 +9,8 @@
     box-sizing: border-box;
 }
 nav{
-    width: 100vw;
-    height: 15vh;
+    width: 100dvw;
+    height: 15dvh;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -18,8 +18,8 @@ nav{
     align-self: center;
 }
 section{
-    width: 100vw;
-    height: 85vh;
+    width: 100dvw;
+    height: 85dvh;
     display: flex;
     flex-direction: row-reverse; 
     align-items: center;
@@ -27,8 +27,8 @@ section{
     align-self: center;
 }
 .logo{
-    width: 15vw;
-    height: 15vh;
+    width: 15dvw;
+    height: 15dvh;
 
     & img{
      width: 100%;
@@ -36,12 +36,12 @@ section{
     }
 }
 .menu{
-    width: 85vw;
-    height: 15vh;
+    width: 85dvw;
+    height: 15dvh;
 }
 .izq{
-    width: 75vw;
-    height: 85vh;
+    width: 75dvw;
+    height: 85dvh;
     display: flex;
     flex-direction: column-reverse;
     background: url(avengers.jpg) no-repeat center;
@@ -49,8 +49,8 @@ section{
 
 }
 .der{
-    width: 25vw;
-    height: 85vh;
+    width: 25dvw;
+    height: 85dvh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -76,26 +76,26 @@ section{
     }
 }
 .izqS{
-    width: 75vw;
-    height: 60vh;
+    width: 75dvw;
+    height: 60dvh;
     display: flex;
 }
 .izqI{
-    width: 75vw;
-    height: 25vh;
+    width: 75dvw;
+    height: 25dvh;
     display: flex;
 }
 .textoI{
-    width: 37.5vw;
-    height: 60vh;
+    width: 37.5dvw;
+    height: 60dvh;
 }
 .textoD{
-    width: 37.5vw;
-    height: 60vh;
+    width: 37.5dvw;
+    height: 60dvh;
 }
 .cont{
-    width: 15vw;
-    height: 25vh;
+    width: 15dvw;
+    height: 25dvh;
     margin: 0.5rem;
     background: #ff000070;
     border-radius: 20px;
@@ -108,9 +108,9 @@ body{
     justify-content: center;
     align-self: center;
 }
-.fa-glasses,.fa-vest-patches,.fa-graduation-cap{
-    font-size: 3rem;
+.iconos{
+    width: 100%;
 }
 .flecha{
-    font-size: 1.5rem;
+    width: 50%;
 }
