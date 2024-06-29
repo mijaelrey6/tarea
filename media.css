@@ -12,20 +12,24 @@
     nav{
         width: 100dvw;
         height: 15dvh;
+        top: 0;
         display: flex;
-        flex-direction: row;
-        align-items: center;
         justify-content: center;
-        align-self: center;
+        align-items: center;
+        z-index: 12;
+        background-color: white;
+    
     }
     section{
         width: 100dvw;
-        height: 100dvh;
+        height: 85dvh;
         display: flex;
-        flex-direction: column-reverse;
+        flex-direction: column-reverse; 
         align-items: center;
         justify-content: center;
         align-self: center;
+        z-index: 1;
+        margin-top: 15vh;
     }
     .logo{
         width: 15dvw;
@@ -46,14 +50,26 @@
         display: flex;
         flex-direction: row;
         align-items: center;
-        justify-content: end;
-    }
+        justify-content: flex-end;
+    
+            & li{
+            width: 10%;
+            height: 100%;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content:center;
+            padding: 20px;
+            }
+        }   
     .izq{
         width: 100dvw;
         height: 85dvh;
         display: flex;
+        flex-direction: column-reverse;
         background: url(avengers.jpg) no-repeat center;
         background-size: cover;
+    
     }
     .der{
         width: 100dvw;
@@ -83,7 +99,8 @@
         }
     }
     .izqS{
-        width: 100%;
+        width: 75dvw;
+        height: 60dvh;
         display: flex;
     }
     .izqI{
@@ -93,11 +110,11 @@
     }
     .textoI{
         width: 37.5dvw;
-        height: 30dvh;
+        height: 60dvh;
     }
     .textoD{
         width: 37.5dvw;
-        height: 30dvh;
+        height: 60dvh;
     }
     .cont{
         width: 15dvw;
@@ -109,7 +126,12 @@
     body{
         display: flex;
         flex-direction: column;
+        overflow-x:hidden;
         overflow-y: auto;
+        align-items: center;
+        justify-content: center;
+        align-self: center;
+        
     }
     .iconos{
         width: 100%;
